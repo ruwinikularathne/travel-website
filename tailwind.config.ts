@@ -1,3 +1,4 @@
+// tailwind.config.ts
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -9,11 +10,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#f3f4f6",  // light grey
+        foreground: "#ffffff",  // white
+        primaryGreen: "#4CAF50", // green shade for buttons/hover
+        primaryBlue: "#2196F3",  // blue shade for the navbar
+        darkGrey: "#374151",     // dark grey for text
       },
     },
   },
   plugins: [],
 };
+
 export default config;
