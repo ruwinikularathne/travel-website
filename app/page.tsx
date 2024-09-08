@@ -9,8 +9,8 @@ const Home = () => {
 
       <div className="relative z-10 flex justify-center items-center h-full">
         <div className="text-center text-white">
-          <h1 className="text-5xl font-bold">Enjoy Your Vacation With Us</h1>
-          <p className="text-2xl mt-4">
+          <h1 className="text-7xl font-bold">Enjoy Your Vacation With Us</h1>
+          <p className="text-3xl mt-4">
             Explore the beauty of Sri Lanka with our curated packages
           </p>
         </div>
