@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="bg-primaryBlue text-foreground shadow-md">
+    <header className="bg-iceBlue opacity-70 text-foreground shadow-md">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo Section */}
         <div className="flex items-center">
@@ -18,7 +18,7 @@ const Header = () => {
         </div>
 
         {/* Navigation Section */}
-        <nav className="space-x-8 text-white text-lg">
+        <nav className="space-x-8 text-primaryBlue text-lg">
           <Link href="/" className="hover:text-primaryGreen transition-colors">
             Home
           </Link>
