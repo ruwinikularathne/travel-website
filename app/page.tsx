@@ -1,18 +1,23 @@
-// app/page.tsx
+// pages/index.tsx or Home.tsx
 import Image from "next/image";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <main className="flex flex-col gap-8 items-center">
-        <h1 className="text-4xl font-bold text-primaryBlue">
-          Welcome to Sri Lanka Travel Website
-        </h1>
-        <p className="text-lg text-darkGrey text-center">
-          Explore the beauty of Sri Lanka with our curated packages.
-        </p>
-        {/* Add any components like Hero, Top Destinations, etc. here */}
-      </main>
+    <div className="relative h-screen overflow-hidden">
+      {/* Rotating Background */}
+      <div className="absolute inset-0 z-0 animate-bgChange bg-cover bg-center"></div>
+
+      {/* Text Overlay */}
+      <div className="relative z-10 flex justify-center items-center h-full">
+        <div className="text-center text-white">
+          <h1 className="text-5xl font-bold">Enjoy Your Vacation With Us</h1>
+          <p className="text-2xl mt-4">
+            Explore the beauty of Sri Lanka with our curated packages
+          </p>
+        </div>
+      </div>
     </div>
   );
-}
+};
+
+export default Home;
