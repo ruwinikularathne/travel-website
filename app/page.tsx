@@ -7,7 +7,6 @@ const Home = () => {
       {/* Rotating Background */}
       <div className="absolute inset-0 z-0 animate-bgChange bg-cover bg-center"></div>
 
-      {/* Text Overlay */}
       <div className="relative z-10 flex justify-center items-center h-full">
         <div className="text-center text-white">
           <h1 className="text-5xl font-bold">Enjoy Your Vacation With Us</h1>
