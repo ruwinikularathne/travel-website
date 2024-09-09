@@ -13,6 +13,30 @@ const Home = () => {
           <p className="text-3xl mt-4">
             Explore the beauty of Sri Lanka with our curated packages
           </p>
+
+          {/* Buttons Section */}
+          <div className="mt-8 space-y-4">
+            {/* Top Destinations & Offers Buttons */}
+            <div className="space-x-4">
+              <button className="rounded-full bg-white hover:bg-transparent text-primaryBlue hover:text-white px-6 py-3 text-xl border-2 border-blue-500 hover:border-white hover:scale-105 transform transition-transform duration-300">
+                Top Destinations
+              </button>
+              <button className="rounded-full bg-white hover:bg-transparent text-primaryBlue hover:text-white px-6 py-3 text-xl font-medium border-2 border-blue-500 hover:border-white hover:scale-105 transform transition-transform duration-300">
+                Offers
+              </button>
+            </div>
+
+            {/* Book Now Button */}
+            {/* <button className="rounded-full bg-white text-primaryBlue px-8 py-4 text-2xl font-bold mt-6 hover:bg-gray-100 hover:scale-105 transform transition-transform duration-300">
+              Book Now
+            </button> */}
+            <button className="rounded-full bg-white hover:bg-transparent text-primaryBlue hover:text-white px-8 py-4 text-2xl font-bold mt-6 border-4 border-blue-500 hover:border-white hover:scale-105 transform transition-transform duration-300">
+              Book Now
+            </button>
+            {/* <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+  Button
+</button> */}
+          </div>
         </div>
       </div>
     </div>
