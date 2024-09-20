@@ -7,7 +7,7 @@ const About = () => {
       {/* Left side: Image Section */}
       <div className="md:w-1/2 w-full mb-6 md:mb-0">
         <Image
-          src="/images/bg1.jpg" // Replace with your image URL for the left side
+          src="/images/bg1.jpg" 
           alt="Travel"
           width={600}
           height={400}
@@ -32,14 +32,14 @@ const About = () => {
         {/* Images Section */}
         <div className="flex space-x-4 mb-6">
           <Image
-            src="/images/bg2.jpg" // Replace with another image URL
+            src="/images/bg2.jpg" 
             alt="Destination"
             width={200}
             height={150}
             className="rounded-lg object-cover"
           />
           <Image
-            src="/images/bg3.jpg" // Replace with another image URL
+            src="/images/bg3.jpg" 
             alt="Destination"
             width={200}
             height={150}
@@ -47,7 +47,6 @@ const About = () => {
           />
         </div>
 
-        {/* Call to Action Button */}
         <button className="rounded-full bg-primaryBlue text-white px-6 py-3 font-semibold hover:bg-primaryGreen transition-all">
           Book Now
         </button>
