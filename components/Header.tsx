@@ -1,4 +1,3 @@
-// components/Header.tsx
 import Image from "next/image";
 import Link from "next/link";
 
@@ -6,7 +5,6 @@ const Header = () => {
   return (
     <header className="bg-iceBlue text-foreground shadow-md">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
-        {/* Logo Section */}
         <div className="flex items-center">
           <Image
             src="/images/logo.png"
@@ -17,7 +15,6 @@ const Header = () => {
           />
         </div>
 
-        {/* Navigation Section */}
         <nav className="space-x-8 text-primaryBlue text-lg">
           <Link href="/" className="hover:text-primaryGreen transition-colors">
             Home

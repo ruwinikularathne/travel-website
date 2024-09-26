@@ -1,4 +1,3 @@
-// pages/index.tsx or Home.tsx
 import Image from "next/image";
 
 const Home = () => {
