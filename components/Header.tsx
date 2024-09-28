@@ -15,37 +15,37 @@ const Header = () => {
           />
         </div>
 
-        <nav className="space-x-8 text-primaryBlue text-lg">
-          <Link href="/" className="hover:text-primaryGreen transition-colors">
+        <nav className="space-x-8 text-primaryBlue text-lg ">
+          <Link href="/" className="hover:text-primaryGreen hover:font-bold transition-colors">
             Home
           </Link>
           <Link
             href="/about"
-            className="hover:text-primaryGreen transition-colors"
+            className="hover:text-primaryGreen hover:font-bold transition-colors"
           >
             About
           </Link>
           <Link
             href="/services"
-            className="hover:text-primaryGreen transition-colors"
+            className="hover:text-primaryGreen hover:font-bold transition-colors"
           >
             Services
           </Link>
           <Link
             href="/packages"
-            className="hover:text-primaryGreen transition-colors"
+            className="hover:text-primaryGreen hover:font-bold transition-colors"
           >
             Packages
           </Link>
           <Link
             href="/destinations"
-            className="hover:text-primaryGreen transition-colors"
+            className="hover:text-primaryGreen hover:font-bold transition-colors"
           >
             Top Destinations
           </Link>
           <Link
             href="/contact"
-            className="hover:text-primaryGreen transition-colors"
+            className="hover:text-primaryGreen hover:font-bold transition-colors"
           >
             Contact Us
           </Link>
