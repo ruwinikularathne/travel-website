@@ -9,7 +9,7 @@ const config: Config = {
     extend: {
       colors: {
         background: "#f3f4f6",  // light grey
-        foreground: "#ffffff",  // white
+        foreground: "#ffffff",  // main white
         iceBlue: "#f0f8ff", // blue shade for the navbar
         primaryGreen: "#4CAF50", // green shade for buttons/hover
         primaryBlue: "#2196F3",  // main blue shade 

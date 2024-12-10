@@ -23,7 +23,7 @@ const Header = () => {
             href="/about"
             className="hover:text-primaryGreen hover:font-bold transition-colors"
           >
-            About
+            About Us
           </Link>
           <Link
             href="/services"
